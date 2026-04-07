@@ -1,0 +1,8 @@
+{
+  "name": "tdd-training",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
