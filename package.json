@@ -1,6 +1,7 @@
 {
   "name": "tdd-training",
   "version": "1.0.0",
+  "type": "module",
   "main": "sum.js",
   "scripts": {
     "test": "node --test"
