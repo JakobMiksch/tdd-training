@@ -10,5 +10,5 @@ test("order is empty", () => {
 
   const customer = new Customer()
 
-  assert.ok(customer, true)
+  assert.ok(customer)
 });
