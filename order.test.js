@@ -24,4 +24,8 @@ test("temporary hold on product stock", () => {
   const product = new Product();
   product.hold = 1;
   assert.strictEqual(product.hold, 1);
+  const customer = new Customer();
+
+  // when the customer adds the item to their order, a temporary hold is placed on the product stock
+  customer.addToOrder(product);
 });

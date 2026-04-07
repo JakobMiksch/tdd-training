@@ -1,4 +1,7 @@
 export default class Customer {
-  constructor() {
+  constructor() {}
+
+  addToOrder(product) {
+    product.hold += 1;
   }
 }
